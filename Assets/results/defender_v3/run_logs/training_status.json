@@ -1,0 +1,29 @@
+{
+    "Defender": {
+        "checkpoints": [
+            {
+                "steps": 14300,
+                "file_path": "results\\defender_v3\\Defender\\Defender-14300.onnx",
+                "reward": -7.000001245074802,
+                "creation_time": 1770092114.110187,
+                "auxillary_file_paths": [
+                    "results\\defender_v3\\Defender\\Defender-14300.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 14300,
+            "file_path": "results\\defender_v3\\Defender.onnx",
+            "reward": -7.000001245074802,
+            "creation_time": 1770092114.110187,
+            "auxillary_file_paths": [
+                "results\\defender_v3\\Defender\\Defender-14300.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.13.1+cpu"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1770091178",
+        "python_version": "3.8.20 (default, Oct  3 2024, 15:19:54) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\Facultate\\Anaconda\\envs\\ml38\\Scripts\\mlagents-learn defender_config.yaml --run-id=defender_v1",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.13.1+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1770091240"
+    },
+    "total": 61.804119299999996,
+    "count": 1,
+    "self": 0.005193999999995924,
+    "children": {
+        "run_training.setup": {
+            "total": 0.16557060000000012,
+            "count": 1,
+            "self": 0.16557060000000012
+        },
+        "TrainerController.start_learning": {
+            "total": 61.6333547,
+            "count": 1,
+            "self": 0.00016749999999632337,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.6331717,
+                    "count": 1,
+                    "self": 61.6331717
+                },
+                "TrainerController._save_models": {
+                    "total": 1.5500000003498826e-05,
+                    "count": 1,
+                    "self": 1.5500000003498826e-05
+                }
+            }
+        }
+    }
+}
